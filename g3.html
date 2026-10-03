@@ -3,6 +3,6 @@
 <script>
 var w=Math.min(screen.width,innerWidth);
 var f=document.createElement('iframe');
-f.src=(w<800?'g3-mobile.html':'g3-desktop.html');
+f.src=(w<800?'g3-mobile.html':'g3-desktop.html')+'?t='+Date.now();
 document.body.appendChild(f);
 </script></body></html>
